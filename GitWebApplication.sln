@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitWebApplication", "GitWebApplication\GitWebApplication.csproj", "{B0FEC3A1-FD39-4AEF-81C4-36250AE0E87B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{AEFA2DAB-04CE-42EB-A9D2-C3A0A88D129F}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{2484F82A-05DD-4210-A419-6766EE85DB1C}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\GitWebApplication-WAWS-dev.json = PublishScripts\Configurations\GitWebApplication-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0FEC3A1-FD39-4AEF-81C4-36250AE0E87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FEC3A1-FD39-4AEF-81C4-36250AE0E87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FEC3A1-FD39-4AEF-81C4-36250AE0E87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FEC3A1-FD39-4AEF-81C4-36250AE0E87B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2484F82A-05DD-4210-A419-6766EE85DB1C} = {AEFA2DAB-04CE-42EB-A9D2-C3A0A88D129F}
+	EndGlobalSection
+EndGlobal
